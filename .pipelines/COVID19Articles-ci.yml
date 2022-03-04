@@ -23,6 +23,7 @@ variables:
 
 pool:
   vmImage: ubuntu-latest
+  pool: <name-of-agent-pool>
 
 stages:
 - stage: 'Model_CI'
